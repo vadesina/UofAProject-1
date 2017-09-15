@@ -1,0 +1,31 @@
+{
+  "name": "bigpicture",
+  "version": "1.2.1",
+  "description": "Lightweight image and video viewer, supports youtube/vimeo",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd example_page && live-server",
+    "build": "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrygd/bigpicture"
+  },
+  "keywords": [
+    "lightbox",
+    "photo",
+    "image",
+    "video",
+    "youtube",
+    "vimeo"
+  ],
+  "author": "Henry Dollman <hank@henrygd.me>",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "uglify-js": "2.7.5"
+  }
+}

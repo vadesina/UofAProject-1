@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Listing Review</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/listing-review.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/jquery-ui/external/jquery/jquery.js"></script>
+    <script type="text/javascript" src="assets/jquery-ui/jquery-ui.min.js"></script>
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/popper/popper.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/listing-review.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <div class="container">
+
+
+        <h1 class="my-4">Review your selected listings
+            <br>
+            <button type="button" class="btn btn-secondary">Listing 1</button>
+            <button type="button" class="btn btn-secondary">Listing 2</button>
+            <button type="button" class="btn btn-secondary">Listing 3</button>
+        </h1>
+
+        <br>
+        <div class="row">
+
+            <div class="col-md-6">
+                <button type="button" class="btn btn-info" id="show-map1">Pickup Location</button>
+                <button type="button" class="btn btn-info" id="show-map2">Delivery Location</button>
+                <button type="button" class="btn btn-info" id="show-map3"><a href="https://www.google.com/maps/dir/90+E+Vaughn+Ave,+Gilbert,+AZ+85233/1+W+Washington+St,+Phoenix,+AZ+85004/1028+K+St,+San+Diego,+CA+92101/@33.1518149,-115.5929805,497069m/data=!3m2!1e3!4b1!4m20!4m19!1m5!1m1!1s0x872ba91715ddf6cd:0x1dd3f81fcbe5ac2a!2m2!1d-111.7897358!2d33.3560437!1m5!1m1!1s0x872b1221957f3e4d:0x89fdd467f7a2965e!2m2!1d-112.0731536!2d33.447981!1m5!1m1!1s0x80d9535c7cedb057:0x6cf0e20c336ffcd4!2m2!1d-117.1552802!2d32.7084971!3e0" target="_blank">Directions</a></button>
+
+                <div id="map1" style="width:400px;height:400px;background:white"></div>
+
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHUHPQW5KLy_MRAm8I5KcLzDE488_eQ3U&callback=myMap1"></script>
+
+            </div>
+
+
+
+            <div class="col-md-6">
+                <div class="panel panel-default">
+
+                    <div class="panel-heading">Shipping Information</div>
+                    <div class="panel-body">
+
+
+                       <table class="table">
+                            <tbody>
+                                <tr>
+                                    <td>Pickup from:</td>
+                                    <td>Michael Cantori
+                                        <br> 1 Washington St
+                                        <br> Phoenix, Arizona 85004
+                                        <br> (123) 123-1234</td>
+                                </tr>
+                                <tr>
+                                    <td>Pickup date and time</td>
+                                    <td>9/31/17 2:00 PM MST</td>
+                                </tr>
+                                <tr>
+                                    <td>Deliver to:</td>
+                                    <td>Jane Smith
+                                        <br> 1028 K St
+                                        <br> San Diego, California 92101
+                                        <br> (123) 123- 1235</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Delivery date and time</td>
+                                    <td>10/2/17 12:00 PM PST</td>
+                                </tr>
+                                <tr>
+                                    <td>Delivery Payment</td>
+                                    <td>$20</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+            <img class="img-fluid" id="remote-image1" src="http://i.ebayimg.com/images/g/nY8AAOSw1uRZuH6R/s-l1600.jpg" alt="">
+          </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+            <img class="img-fluid" id="remote-image2" src="http://i.ebayimg.com/images/g/B4AAAOSwYVBZuH6Y/s-l1600.jpg" alt="">
+          </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+            <img class="img-fluid" id="remote-image3" src="http://i.ebayimg.com/images/g/ncEAAOSw1uRZuH6c/s-l1600.jpg" alt="">
+          </a>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <a href="#">
+            <img class="img-fluid" id="remote-image4" src="http://i.ebayimg.com/images/g/aLQAAOSwBT9ZuH6V/s-l1600.jpg" alt="">
+          </a>
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+
+        <div class="col-md-12">
+            <div class="panel panel-default">
+
+                <div class="panel-heading">Item Information</div>
+                <div class="panel-body">
+
+
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Dimensions:</td>
+                                <td>55 inches x 31 inches x 49 inches</td>
+                            </tr>
+                            <tr>
+                                <td>Weight:</td>
+                                <td>55 pounds</td>
+                            </tr>
+                            <tr>
+                                <td>Delivery instructions/misc comments:</td>
+                                <td>I lost the box the TV came in unfortunately. I will bubble wrap the TV so it is protected but please make sure it is secure in your vehicle. Please call the phone number of the receiver when you arrive to let them know you are outside. It is an apartment building so they will have to let you up.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <button type="button" id="cancel" class="btn1 btn-danger" value="back" onclick="return back_onclick()">Back</button>
+
+    <button type="button" id="confirm" class="btn2 btn-primary" value="confirm" onclick="return confirm_onclick()">Confirm</button>
+    <!-- <button type="button" class="btn2 btn-success">Confirm</button> -->
+
+
+
+    <script type="text/javascript">
+        function back_onclick() {
+            window.location.href = "file:///C:users/Vaughn K Adesina/Desktop/AutoViato/listing-table.html";
+        }
+
+        function confirm_onclick() {
+            window.location.href = "file:///C:users/Vaughn K Adesina/Desktop/AutoViato/confirmation-shipper.html";
+        }
+    </script>
+<script src="assets/bigpicture/dist/BigPicture.js"></script>
+<script>
+
+    function setClickHandler(id, fn) {
+      document.getElementById(id).onclick = fn;
+    }
+
+    setClickHandler('remote-image1', function(e) {
+      e.target.tagName === 'IMG' && BigPicture({
+        el: e.target,
+        imgSrc: e.target.src.replace()
+      });
+    });
+
+    setClickHandler('remote-image2', function(e) {
+      e.target.tagName === 'IMG' && BigPicture({
+        el: e.target,
+        imgSrc: e.target.src.replace()
+      });
+    });
+
+    setClickHandler('remote-image3', function(e) {
+      e.target.tagName === 'IMG' && BigPicture({
+        el: e.target,
+        imgSrc: e.target.src.replace()
+      });
+    });
+
+    setClickHandler('remote-image4', function(e) {
+      e.target.tagName === 'IMG' && BigPicture({
+        el: e.target,
+        imgSrc: e.target.src.replace()
+      });
+    });
+    
+
+</script>
+    <!-- Bootstrap core JavaScript -->
+
+
+
+</body>
+
+</html>

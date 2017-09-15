@@ -1,0 +1,202 @@
+body{
+	background: lightgrey;
+}
+
+#mainbox{
+	background:grey;
+	margin-left:-10px;
+    position:relative;
+    width:1290px;
+
+}
+
+.credit-card-box{
+	margin-right: 20px;
+	margin-top:110px;
+	margin-left: 20px;
+	position: relative;
+}
+#name{
+   color:white;
+   margin-top:40px;
+   margin-left:20Px;
+}
+#address{
+	color:white;
+	margin-top:40px;
+	margin-left:20Px;
+}
+
+#delivery{
+	color:white;
+	margin-top:40px;
+	margin-left:20Px;
+}
+.jumbotron{
+	background-image: url("../images/package1.jpg");
+	margin-right: 130px;
+	margin-left: 130px;
+}
+
+.jumbotron h1{
+	color:white;
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+   text-shadow: -2px 0 black, 0 3px black, 2px 0 black, 0 -2px white;
+}
+#usr{
+	width:58%;
+	margin-left:20Px;
+	
+}
+
+#add-item-input{
+	width:58%;
+	margin-left:20Px;
+}
+
+#item-delivery-input{
+	margin-right:0px;
+	width:80%;
+	margin-left:20Px;
+}
+
+#item-dimensions-input{
+	margin-right:0px;
+	width:80%;
+	margin-left:20Px;
+}
+#item-weight-input{
+	width:80%;
+	margin-left:0Px;
+
+}
+
+#submit{
+	margin-top:40px;
+	margin-bottom: 10px;
+	margin-left:20Px;
+}
+
+#dimensions{
+	color:white;
+	margin-top: 40px;
+	margin-left:20Px;
+}
+
+#weight{
+	color:white;
+	margin-top: 40px;
+	margin-left:0Px;
+}
+
+
+#pick-up{
+	color:#003366;
+	margin-bottom: 23px;
+}
+
+#pick-up-time{
+	margin-top: 40px;
+	margin-left:0px;
+	color:white;
+}
+
+#time{ 
+	/*margin-top:40px;*/
+	margin-left:30px;
+	border-radius: 7px;
+	width:50%;
+
+}
+
+
+#pick-up-date{
+	margin-left:20px;
+	color:white;
+
+}
+
+#date{ 
+	margin-top:40px;
+	margin-left:35px;
+	border-radius: 7px;
+	width:50%;
+	/*margin-bottom: 20px;*/
+
+
+}
+.col-xs-10 .col-md-3{
+	margin-left:40px;
+}
+
+.panel-title{
+	padding-left:10px;
+}
+
+.images{
+	/*margin-left:140px;*/
+	text-align: center;
+	color:#003366;
+	font-size:25px;
+	margin-top:40px;
+	font-family: 'Pacifico', cursive;
+}
+
+
+#p{
+	color:#003366;
+
+	margin:40px 0px 0px 118px;
+	font-size: 20px;
+	
+}
+
+#comments{
+	height: 200px;
+	
+	/*margin:0px -50px 20px 110px;*/
+	width:1290px;
+	margin-left: 110px
+
+}
+
+.img-fluid{
+	margin-left:130px;
+	height: 200px;
+	width:200px;
+}
+
+#cancel{
+	margin-left:120px;
+	margin-bottom: 20px;
+	margin-top:20px;
+    font-family: 'Pacifico', cursive;
+    font-size:20px;
+
+}
+#confirm{
+
+	margin-left:920px;
+	margin-bottom: 20px;
+	margin-top:20px;
+    font-family: 'Pacifico', cursive;
+    font-size:20px;
+}
+
+#home{
+
+	margin-left:310px;
+	margin-bottom: 20px;
+	margin-top:20px;
+	height: 50px;
+    font-family: 'Pacifico', cursive;
+    font-size:20px;
+}
+
+.btn-arrow-right,
+.btn-arrow-left {
+   position: relative;
+   padding-left: 18px;
+   padding-right: 18px;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Listing Selection</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <style>
+        .h1 {
+            position: absolute;
+            font-weight: bold;
+            font-family: 'Pacifico', serif;
+            text-shadow: -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+            font-size: 62px;
+            font-weight: normal;
+            color: white;
+            padding-left: 17%;
+            margin-top: -5%;
+        }
+
+
+        .jumbotron {
+            background-image: url("assets/images/googlemap.png");
+            height: 20vh;
+            margin-left: 120px;
+            margin-right: 150px;
+        }
+        /*.jumbotron {
+  max-width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url(https://postlaunch.co/wp-content/uploads/2016/06/google-map-background-1900x1170.png);
+  color: inherit;
+  background-color: #blue;
+}*/
+
+        #cancel {
+            /*position: absolute;*/
+            margin-left: 250px;
+            margin-bottom: 10px;
+            font-family: 'Pacifico', serif;
+            font-size: 24px;
+        }
+
+        #confirm {
+            /*position: absolute;*/
+            margin-left: 820px;
+
+            font-family: 'Pacifico', serif;
+            font-size: 24px;
+        }
+
+        .table {
+            /*position: absolute;*/
+            margin-top: 5%;
+            margin-left: 250px;
+        }
+
+        .container {}
+    </style>
+
+
+
+    <body>
+        <div class="jumbotron">
+            <h1> </h1>
+        </div>
+        <div class="h1">
+            <h1> Select your listing... </h1>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 form-group">
+               <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Order Number</th>
+                            <th>Name</th>
+                            <th>Item</th>
+                            <th>Demensions</th>
+                            <th>Weight</th> 
+                            <th>Pickup City</th>
+                            <th>Pickup Date</th>
+                            <th>Pickup Time</th>
+                            <th>Delivery City</th>
+                            <th>Delivery Date</th>
+                            <th>Delivery Time</th>
+                            <th>Delivery Payment</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="vcenter"><input type="checkbox" id="blahA" value="1" /></td>
+                            <th scope="row">10023423</th>
+                            <td>Reyna P.</td>
+                            <td>Tamales</td>
+                            <td>9-1/4 x 6-1/4 x 2 in</td>
+                            <td>2 lbs</td>
+                            <td>Phoenix, AZ</td>
+                            <td>9/18/2017</td>
+                            <td>3 PM MST</td>
+                            <td>San Diego, CA</td>
+                            <td>9/20/2017</td>
+                            <td>12 PM PST</td>
+                            <td>$5</td>
+                        </tr>
+                        <tr>
+                            <td class="vcenter"><input type="checkbox" id="blahA" value="1" /></td>
+                            <th scope="row">10024352</th>
+                            <td>Mark L.</td>
+                            <td>Wood Planks</td>
+                            <td>6x 2 x x 4 x 5 ft</td>
+                            <td>20 lbs</td>
+                            <td>Gilbert, AZ</td>
+                            <td>9/20/2017</td>
+                            <td>10 AM MST</td>
+                            <td>Scottsdale, AZ</td>
+                            <td>9/21/2017</td>
+                            <td>12 PM PST</td>
+                            <td>$15</td>
+                        </tr>
+                        <tr>
+                            <td class="vcenter"><input type="checkbox" id="blahA" value="1" /></td>
+                            <th scope="row">10025403</th>
+                            <td>Jacob S.</td>
+                            <td>Rhubarb</td>
+                            <td>11 x 8 1/2 x 5 in</td>
+                            <td>15 lbs</td>
+                            <td>Mesa, AZ</td>
+                            <td>9/21/2017</td>
+                            <td>1 PM MST</td>
+                            <td>Phoenix, AZ</td>
+                            <td>9/21/2017</td>
+                            <td>5 PM PST</td>
+                            <td>$5</td>
+                        </tr>
+                        <tr>
+                            <td class="vcenter"><input type="checkbox" id="blahA" value="1" /></td>
+                            <th scope="row">10025773</th>
+                            <td>Michael C.</td>
+                            <td>60" TV</td>
+                            <td>55 x 31 x 49 in</td>
+                            <td>55 lbs</td>
+                            <td>Phoenix, AZ</td>
+                            <td>9/31/2017</td>
+                            <td>2 PM MST</td>
+                            <td>San Diego, CA</td>
+                            <td>10/2/2017</td>
+                            <td>12 PM PST</td>
+                            <td>$20</td>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+
+        <button type="button" id="cancel" class="btn btn-danger" value="cancel" onclick="return cancel_onclick()">Cancel</button>
+
+        <button type="button" id="confirm" class="btn btn-primary" value="confirm" onclick="return confirm_onclick()">Confirm</button>
+        <!-- <button type="button" class="btn2 btn-success">Confirm</button> -->
+
+
+        <script type="text/javascript" src="assets/jquery-ui/external/jquery/jquery.js"></script>
+
+        <!-- jquery ui -->
+        <script type="text/javascript" src="assets/jquery-ui/jquery-ui.min.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHUHPQW5KLy_MRAm8I5KcLzDE488_eQ3U&callback=myMap"></script>
+<script>
+var latitude = 0;
+var longitude = 0;
+
+ $("#add-animal").on("click", function(e) {
+      // In this case, the "this" keyword refers to the button that was clicked
+      // latitude= $(this).attr("data-person");
+      // longitude=
+      var userInput = $("#animal-input").val().trim();
+      e.preventDefault();
+      // Constructing a URL to search Giphy for the name of the person who said the quote
+      console.log(userInput);
+      var queryURL = "http://maps.google.com/maps/api/geocode/json?address=" + userInput;
+      console.log(queryURL);
+      // Performing our AJAX GET request
+      $.ajax({
+          url: queryURL,
+          method: "GET"
+        })
+        // After the data comes back from the API
+        .done(function(response) {
+            
+             latitude = response.results[0].geometry.location.lat;
+             longitude = response.results[0].geometry.location.lng;
+             console.log(response);
+            myMap();
+        })
+    })  
+function myMap() {
+    var mapOptions = {
+        
+        center: new google.maps.LatLng(latitude, longitude),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    console.log(latitude);
+    var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+</script>
+
+
+        <script type="text/javascript">
+            function cancel_onclick() {
+                window.location.href = "file:///C:/Users/Vaughn K Adesina/Desktop/AutoViato/front-page.html";
+            }
+
+            function confirm_onclick() {
+                window.location.href = "file:///C:users/Vaughn K Adesina/Desktop/AutoViato/listing-review.html";
+            }
+        </script>
+
+
+    </body>
+
+</html>

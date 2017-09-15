@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>AutoViato</title>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- <link href="bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="bootstrap-directional-buttons.css" rel="stylesheet"> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+</head>
+
+
+
+<style type="text/css">
+    body {
+        background-image: url("assets/images/girldel.jpg");
+        /*padding: 30px;*/
+    }
+    /*.jumbotron {
+  max-width: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: inherit;
+  background-color: #7DA7F0;
+   opacity : 0.7;
+}*/
+    #h {
+        font-family: 'Monoton', cursive;
+        margin-left: 475px;
+        font-size: 75px;
+        color: white;
+    }
+    #hh {
+        padding-top: 280px;
+        position: relative;
+        display: block;
+        font-weight: bold;
+        font-family: 'Pacifico', cursive;
+        font-size: 60px;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        left: 50px;
+    }
+
+    .jumbotron p {
+        position: absolute;
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+
+    #sendbtn {
+        margin-left: 30%;
+        /* margin-right: 150px;*/
+        margin-top: 25px;
+        height: 55px;
+        width: 110px;
+        font-family: 'Pacifico', cursive;
+        font-size: 20px;
+    }
+
+    #delbtn {
+        height: 55px;
+        width: 110px;
+        font-family: 'Pacifico', cursive;
+        margin-top: 25px;
+        margin-left: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+
+    .btn-arrow-right:after,
+    .btn-arrow-left:after {
+        /* align the "after" square to the right */
+        right: -11px;
+    }
+
+    .btn-arrow-right:after,
+    .btn-arrow-left:before {
+        /* bring arrow pointers to front */
+        z-index: 1;
+    }
+
+    .btn-arrow-right:before,
+    .btn-arrow-left:after {
+        /* hide arrow tails background */
+        background-color: white;
+    }
+</style>
+
+
+
+<body>
+    <div id="frontpage">
+        <!--  <div class="jumbotron"> -->
+        <h1 id="h">AutoViato</h1>
+        <h2 id="hh"> Are you Sending or Delivering? </h2>
+        <p></p>
+
+
+        <div class="row">
+            <div class=col-md-12>
+                <input type="button" id="sendbtn" class="btn  btn-primary btn-arrow-left" value="Sending" onclick="return sendbtn_onclick()" />
+                <input type="button" id="delbtn" class="btn  btn-success btn-arrow-right" value="Delivering" onclick="return delbtn_onclick()" />
+                <!-- <button type="button" class="sendbtn">Sending</button> -->
+                <!-- <button type="button" id="delbtn"  class="btn  btn-success btn-arrow-right">Delivering</button> -->
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        function sendbtn_onclick() {
+
+            window.location =
+                window.location.href = "file:///C:/Users/Vaughn K Adesina/Desktop/AutoViato/create-listing.html";
+        }
+
+        function delbtn_onclick() {
+            window.location =
+                window.location.href = "file:///C:/Users/Vaughn K Adesina/Desktop/AutoViato/listing-table.html";
+        }
+    </script>
+</body>
+
+</html>
